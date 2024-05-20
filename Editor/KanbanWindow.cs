@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
@@ -342,6 +343,8 @@ public class KanbanWindow : EditorWindow
 
         menu.AddItem(new("Rename Card"), false, () => UndoableAction(() => { editedColumn = columnIndex; editedCard = cardIndex; }));
         menu.AddItem(new("Delete Card"), false, () => UndoableAction(() => { column.cards.RemoveAt(cardIndex); }));
+        foreach (var c in KanbanAsset.Columns)
+            menu.AddItem(new($"Move to.../{c.title}"), false, () => UndoableAction(() => { column.cards.Remove(card); c.cards.Add(card); }));
         menu.ShowAsContext();
     }
 
