@@ -34,7 +34,7 @@ You can also move Cards into other Lists this way.\
 
 
 ## Context Menus
-Card/Lists can be added, removed or renamed via context menus.\
+Card/Lists can be added, moved, removed or renamed via context menus.\
 ![image](https://github.com/Umbrason/Unity-Kanban/assets/45980080/f8dcc8a3-82fd-417f-853e-e9ad4e23ddf1)\
 ![image](https://github.com/Umbrason/Kanban/assets/45980080/c01edc84-1d61-4ac0-959e-6fc2bb7f2d27)
 
