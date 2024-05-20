@@ -27,8 +27,10 @@ Double click the asset to open it in a Kanban editor window.
 Use the '+' buttons to add new Lists & Cards to the Kanban board.
 
 ## Moving Things Around
-You can drag Lists and Cards around to rearrange them.
-![DragNDrop](https://github.com/Umbrason/Kanban/assets/45980080/f7d9f66f-1d56-48db-8de9-6d0040a96fe9)
+You can drag Lists and Cards around to rearrange them.\
+![DragNDrop](https://github.com/Umbrason/Kanban/assets/45980080/f7d9f66f-1d56-48db-8de9-6d0040a96fe9)\
+You can also move Cards into other Lists this way.\
+![7379944c8e92108d638514d8f8037952](https://github.com/Umbrason/Unity-Kanban/assets/45980080/16e96864-471f-4077-86a9-c0f8a1bac44d)
 
 
 ## Context Menus
