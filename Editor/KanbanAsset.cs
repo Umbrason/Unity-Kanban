@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Kanban")]
 public class KanbanAsset : ScriptableObject
 {
-    [HideInInspector] public List<Column> Columns;
+    [HideInInspector] public List<Column> Columns = new();
 
     [System.Serializable]
     public class Column
