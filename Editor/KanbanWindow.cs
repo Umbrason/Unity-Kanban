@@ -51,6 +51,7 @@ public class KanbanWindow : EditorWindow
     public void OnGUI()
     {
         if (KanbanAsset == null) return;
+        GUI.skin.box.normal.textColor = Color.white;
         GUI.color = Color.white;
         GUI.backgroundColor = Color.white;
         Event e = Event.current;

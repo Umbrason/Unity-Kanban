@@ -1,15 +1,15 @@
 {
-    "name": "com.umbrason.kanban",
+    "name": "com.umbrason.unity-kanban",
     "version": "1.0.0",
     "displayName": "KANBAN",
     "description": "KANABAN Board for Unity",
     "unity": "2019.1",
     "unityRelease": "0b5",
    "keywords": [
-      "Workflor",
+      "Workflow",
       "Organization",
       "Kanban",
-      "Editor"      
+      "Editor"     
     ],
     "author": {
       "name": "Umbrason"      
